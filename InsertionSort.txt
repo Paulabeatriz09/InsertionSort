@@ -1,0 +1,21 @@
+def insertionSort(array):
+
+    for step in ranger(1, len(array)):
+        key=array[step]
+        j=step-1
+
+        #Compara a chave com cada elemento à esquerda dela..
+        #Até que um elemento menor do que seja encontrado
+        #Para ordem decrescente, Altere key<array[j] para keyarray[j]
+
+        while j>=0 and key<array[j]:
+            array[j+1]=array[j]
+            j=j-1
+
+        array[j+1]=key
+
+data=[9,5,1,4,3]
+insertionSort(data)
+print('Array em ordem crescente:')
+print(data)
+

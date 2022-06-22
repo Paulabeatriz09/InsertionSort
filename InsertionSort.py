@@ -1,12 +1,13 @@
-def insertionSort(array):
 
+#Chamando a funcao insertion sort
+def insertionSort(array):
+    {
+
+    #Percorrer de 1 a 30
     for step in range(1, len(array)):
         key=array[step]
         j=step-1
 
-        #Compara a chave com cada elemento à esquerda dela..
-        #Até que um elemento menor do que seja encontrado
-        #Para ordem decrescente, Altere key<array[j] para keyarray[j]
 
         while j>=0 and key<array[j]:
             array[j+1]=array[j]
@@ -14,7 +15,20 @@ def insertionSort(array):
 
         array[j+1]=key
 
-data=[9,5,1,4,3]
+        }
+
+        {
+       while i<=(n+n):
+       if i%2!=0
+        print(data(i))
+        i+=1
+        else:
+            i+=1
+       }
+
+
+
+data=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
 insertionSort(data)
 print('Array em ordem crescente:')
 print(data)

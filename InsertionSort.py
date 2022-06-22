@@ -1,6 +1,6 @@
 def insertionSort(array):
 
-    for step in ranger(1, len(array)):
+    for step in range(1, len(array)):
         key=array[step]
         j=step-1
 
